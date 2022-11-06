@@ -1,0 +1,60 @@
+﻿sep=,
+"ID","Title","Automation Type","Created By","Created On","Estimate","Expected Result","Forecast","Goals","Mission","Preconditions","Priority","References","Section","Section Depth","Section Description","Section Hierarchy","Steps","Steps","Steps (Additional Info)","Steps (Expected Result)","Steps (References)","Steps (Shared step ID)","Steps (Step)","Suite","Suite ID","Template","Type","Updated By","Updated On"
+"C40","The user can use the ""search"" option to search for articles on the site"," None","Filip Milczarski","10/29/2022 6:34 PM","","","","","","The user is on the homepage.","High","","Search","0","","Search","1.  The user clicks on the magnifying glass button.
+Expected Result:
+A text box appears for entering a search term.2. The user enters the search term in the text field.
+Expected Result:
+The entered phrase appears in the text box.3. The user presses the 'enter' button.
+Expected Result:
+Articles containing the search term appear on the page.","","1. 
+2. 
+3.","1. A text box appears for entering a search term.
+2. The entered phrase appears in the text box.
+3. Articles containing the search term appear on the page.","1. 
+2. 
+3.","1. 
+2. 
+3.","1.  The user clicks on the magnifying glass button.
+2. The user enters the search term in the text field.
+3. The user presses the 'enter' button.","Master","S3","Test Case (Steps)","Functional","Filip Milczarski","10/29/2022 6:34 PM"
+"C41","The user can open the article on the page"," None","Filip Milczarski","10/29/2022 6:41 PM","","","","","","The user is on the homepage.","Critical","","Articles","0","","Articles","1. The user clicks on the title of the article on the page.
+Expected Result:
+The user is redirected to the page containing the content of the article.","","1.","1. The user is redirected to the page containing the content of the article.","1.","1.","1. The user clicks on the title of the article on the page.","Master","S3","Test Case (Steps)","Functional","Filip Milczarski","10/29/2022 6:41 PM"
+"C42","The user can view the next article using the ""Next post"" option"," None","Filip Milczarski","10/29/2022 6:44 PM","","","","","","The user is on an article page ","Medium","","Articles","0","","Articles","1. The user presses the ""Next post"" button.
+Expected Result:
+The user is redirected to the page containing the next article.","","1.","1. The user is redirected to the page containing the next article.","1.","1.","1. The user presses the ""Next post"" button.","Master","S3","Test Case (Steps)","Functional","Filip Milczarski","10/29/2022 6:44 PM"
+"C43","The user can view the previous article using the ""previous post"" option"," None","Filip Milczarski","10/29/2022 6:46 PM","","","","","","The user is on an article page ","Medium","","Articles","0","","Articles","1. The user presses the ""previous post"" button
+Expected Result:
+The user is redirected to the page with the previous article.","","1.","1. The user is redirected to the page with the previous article.","1.","1.","1. The user presses the ""previous post"" button","Master","S3","Test Case (Steps)","Functional","Filip Milczarski","10/29/2022 6:46 PM"
+"C49","The user can leave a comment under the article"," None","Filip Milczarski","10/29/2022 7:20 PM","","","","","","The user is on the article page.","Low","","Articles","0","","Articles","1. The user fills in the mandatory fields (comment, name, email).
+Expected Result:
+The fields are filled in.2. The user presses the 'publish comment' button.
+Expected Result:
+The comment is added and displayed below the article.","","1. 
+2.","1. The fields are filled in.
+2. The comment is added and displayed below the article.","1. 
+2.","1. 
+2.","1. The user fills in the mandatory fields (comment, name, email).
+2. The user presses the 'publish comment' button.","Master","S3","Test Case (Steps)","Functional","Filip Milczarski","10/29/2022 7:20 PM"
+"C44","The user can open the ""More"" tab"," None","Filip Milczarski","10/29/2022 6:55 PM","","","","","","The user is on the homepage.","High","","More","0","","More","1.  The user clicks on the ""..."" icon.
+Expected Result:
+The ""more"" tab opens.2. User clicks on the ""Twitter"" button.
+Expected Result:
+The user is redirected to the page's Twitter account.","","1. 
+2.","1. The ""more"" tab opens.
+2. The user is redirected to the page's Twitter account.","1. 
+2.","1. 
+2.","1.  The user clicks on the ""..."" icon.
+2. User clicks on the ""Twitter"" button.","Master","S3","Test Case (Steps)","Functional","Filip Milczarski","10/29/2022 6:55 PM"
+"C46","The user can search for articles by selecting a category in the ""more"" section"," None","Filip Milczarski","10/29/2022 7:02 PM","","","","","","The user is in the ""more"" section.","Medium","","More","0","","More","1. ![](index.php?/attachments/get/4420f9e0-03e8-47d7-8892-cc68df02c90e) The user presses the category button.
+Expected Result:
+Articles assigned to the selected category appear on the page.","","1.","1. Articles assigned to the selected category appear on the page.","1.","1.","1. ![](index.php?/attachments/get/4420f9e0-03e8-47d7-8892-cc68df02c90e) The user presses the category button.","Master","S3","Test Case (Steps)","Functional","Filip Milczarski","10/29/2022 7:02 PM"
+"C47","The user can search for articles using the search engine in the ""more"" section"," None","Filip Milczarski","10/29/2022 7:06 PM","","","","","","The user is in the ""more"" section","Low","","More","0","","More","1. The user enters the search term in the search engine under ""more"" section.
+Expected Result:
+Articles containing the search term appear on the page.","","1.","1. Articles containing the search term appear on the page.","1.","1.","1. The user enters the search term in the search engine under ""more"" section.","Master","S3","Test Case (Steps)","Functional","Filip Milczarski","10/29/2022 7:06 PM"
+"C45","The user can return to the home page using the ""home"" button"," None","Filip Milczarski","10/29/2022 6:59 PM","","","","","","The user is on the article page","Critical","","Website navigation","0","","Website navigation","1.  The user presses the ""Home"" button
+Expected Result:
+The user is redirected to the home page.","","1.","1. The user is redirected to the home page.","1.","1.","1.  The user presses the ""Home"" button","Master","S3","Test Case (Steps)","Functional","Filip Milczarski","10/29/2022 6:59 PM"
+"C48","The user can go to the last page in the pagination"," None","Filip Milczarski","10/29/2022 7:14 PM","","","","","","The user is on the homepage.","Low","","Website navigation","0","","Website navigation","1. The user clicks on the last page in the pagination.
+Expected Result:
+The user is redirected to the last page in the pagination.","","1.","1. The user is redirected to the last page in the pagination.","1.","1.","1. The user clicks on the last page in the pagination.","Master","S3","Test Case (Steps)","Functional","Filip Milczarski","10/29/2022 7:14 PM"

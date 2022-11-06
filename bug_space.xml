@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S3</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Search</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C40</id>
+				<title>The user can use the &quot;search&quot; option to search for articles on the site</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>The user is on the homepage.</preconds>
+										<steps_separated><step>
+<index>1</index><content> The user clicks on the magnifying glass button.</content><expected>A text box appears for entering a search term.</expected></step>
+<step>
+<index>2</index><content>The user enters the search term in the text field.</content><expected>The entered phrase appears in the text box.</expected></step>
+<step>
+<index>3</index><content>The user presses the &apos;enter&apos; button.</content><expected>Articles containing the search term appear on the page.</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Articles</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C41</id>
+				<title>The user can open the article on the page</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>The user is on the homepage.</preconds>
+										<steps_separated><step>
+<index>1</index><content>The user clicks on the title of the article on the page.</content><expected>The user is redirected to the page containing the content of the article.</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C42</id>
+				<title>The user can view the next article using the &quot;Next post&quot; option</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>The user is on an article page </preconds>
+										<steps_separated><step>
+<index>1</index><content>The user presses the &quot;Next post&quot; button.</content><expected>The user is redirected to the page containing the next article.</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C43</id>
+				<title>The user can view the previous article using the &quot;previous post&quot; option</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>The user is on an article page </preconds>
+										<steps_separated><step>
+<index>1</index><content>The user presses the &quot;previous post&quot; button</content><expected>The user is redirected to the page with the previous article.</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C49</id>
+				<title>The user can leave a comment under the article</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Low</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>The user is on the article page.</preconds>
+										<steps_separated><step>
+<index>1</index><content>The user fills in the mandatory fields (comment, name, email).</content><expected>The fields are filled in.</expected></step>
+<step>
+<index>2</index><content>The user presses the &apos;publish comment&apos; button.</content><expected>The comment is added and displayed below the article.</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>More</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C44</id>
+				<title>The user can open the &quot;More&quot; tab</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>The user is on the homepage.</preconds>
+										<steps_separated><step>
+<index>1</index><content> The user clicks on the &quot;...&quot; icon.</content><expected>The &quot;more&quot; tab opens.</expected></step>
+<step>
+<index>2</index><content>User clicks on the &quot;Twitter&quot; button.</content><expected>The user is redirected to the page&apos;s Twitter account.</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C46</id>
+				<title>The user can search for articles by selecting a category in the &quot;more&quot; section</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>The user is in the &quot;more&quot; section.</preconds>
+										<steps_separated><step>
+<index>1</index><content>![](index.php?/attachments/get/4420f9e0-03e8-47d7-8892-cc68df02c90e) The user presses the category button.</content><expected>Articles assigned to the selected category appear on the page.</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C47</id>
+				<title>The user can search for articles using the search engine in the &quot;more&quot; section</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Low</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>The user is in the &quot;more&quot; section</preconds>
+										<steps_separated><step>
+<index>1</index><content>The user enters the search term in the search engine under &quot;more&quot; section.</content><expected>Articles containing the search term appear on the page.</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Website navigation</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C45</id>
+				<title>The user can return to the home page using the &quot;home&quot; button</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>The user is on the article page</preconds>
+										<steps_separated><step>
+<index>1</index><content> The user presses the &quot;Home&quot; button</content><expected>The user is redirected to the home page.</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C48</id>
+				<title>The user can go to the last page in the pagination</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Low</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>The user is on the homepage.</preconds>
+										<steps_separated><step>
+<index>1</index><content>The user clicks on the last page in the pagination.</content><expected>The user is redirected to the last page in the pagination. </expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+</suite>
